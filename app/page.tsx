@@ -2,11 +2,10 @@ export const metadata = {
   title: "BodyOS",
   description: "Run your body like a system.",
   icons: {
-    icon: "/bodyos-icon.png",
+    icon: "/bodyos-iconborder.png",
   },
 };
 export default function BodyOSLandingPage() {
-  
   const features = [
     {
       title: "Daily Check-In",
@@ -39,23 +38,12 @@ export default function BodyOSLandingPage() {
         <div className="relative mx-auto max-w-7xl px-6 py-8 sm:px-8 lg:px-10">
           <header className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-  <img
-    src="/bodyos-icon.png"
-    alt="BodyOS Icon"
-    className="h-10 w-10 rounded-xl object-contain"
-  />
-
-  <div className="flex flex-col leading-none">
-    <img
-      src="/bodyos-logo.png"
-      alt="BodyOS"
-      className="h-7 w-auto object-contain"
-    />
-    <p className="mt-1 text-[10px] uppercase tracking-[0.22em] text-[#E5E7EB]/65">
-      Personal Body Operating System
-    </p>
-  </div>
-</div>
+              <img src="/bodyos-iconborder.png" alt="BodyOS Icon" className="h-11 w-11 rounded-2xl shadow-lg shadow-black/20" />
+              <div>
+                <img src="/bodyos-logoborder.png" alt="BodyOS" className="h-7" />
+                <p className="text-xs uppercase tracking-[0.28em] text-[#E5E7EB]/70">Personal Body Operating System</p>
+              </div>
+            </div>
 
             <div className="hidden items-center gap-3 sm:flex">
               <a
@@ -77,6 +65,13 @@ export default function BodyOSLandingPage() {
             <div>
               <div className="mb-5 inline-flex items-center rounded-full border border-[#3B82F6]/30 bg-[#142E54]/80 px-4 py-2 text-sm text-[#E5E7EB] backdrop-blur">
                 Built for busy people who still want a serious physique
+              </div>
+              <div className="mb-6">
+                <img
+                  src="/bodyos-logoborder.png"
+                  alt="BodyOS"
+                  className="h-12"
+                />
               </div>
               <h1 className="max-w-3xl text-5xl font-semibold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
                 Stop guessing.
