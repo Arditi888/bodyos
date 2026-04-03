@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata = {
   title: "BodyOS",
   description: "Run your body like a system.",
